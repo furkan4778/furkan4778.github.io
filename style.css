@@ -26,7 +26,6 @@ body {
   font-family: "DM Mono", monospace;
 }
 
-/* ----------- 1.BOLUM ----------- */
 header {
   padding-top: 15rem;
 }
@@ -127,7 +126,7 @@ h1 span {
   margin-bottom: 0.58rem;
 }
 
-/* ----------- 2.BOLUM ----------- */
+
 .section-2 {
   padding-top: 10rem;
 }
@@ -177,7 +176,7 @@ h1 span {
   font-size: small;
 }
 
-/* ----------- 3.BOLUM ----------- */
+
 .projeler {
   color: var(--accent);
   margin-bottom: 2rem;
@@ -239,7 +238,7 @@ h1 span {
   color: var(--accent);
 }
 
-/* ----------- FOOTER ----------- */
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -250,7 +249,7 @@ footer {
   color: var(--muted);
 }
 
-/* ----------- 4.BOLUM ----------- */
+
 .calisalimmi {
   font-size: 5.5rem;
   font-weight: 800;
@@ -343,11 +342,8 @@ footer {
   transition: all 0.3s;
 }
 
-/* =========================================
-   MEDIA QUERIES
-   ========================================= */
 
-/* 4K — 1920px üzeri ekranlar */
+
 @media (max-width: 1920px) {
   .section-1 {
     width: 35%;
@@ -358,7 +354,6 @@ footer {
   }
 }
 
-/* Geniş masaüstü — 1536px */
 @media (max-width: 1536px) {
   .section-1 {
     width: 38%;
@@ -372,7 +367,7 @@ footer {
   }
 }
 
-/* Masaüstü — 1280px */
+
 @media (max-width: 1280px) {
   .section-1 {
     width: 45%;
@@ -389,7 +384,7 @@ footer {
   }
 }
 
-/* Laptop — 1024px */
+
 @media (max-width: 1024px) {
   .section-1 {
     width: 60%;
@@ -416,13 +411,11 @@ footer {
   }
 }
 
-/* Tablet — 768px */
 @media (max-width: 768px) {
   html {
     font-size: 13px;
   }
 
-  /* Nav */
   .menu {
     gap: 1.2rem;
   }
@@ -430,7 +423,6 @@ footer {
     font-size: 0.85rem;
   }
 
-  /* Section 1 */
   .section-1 {
     width: 80%;
   }
@@ -445,7 +437,6 @@ footer {
     padding: 0.6rem 1.2rem;
   }
 
-  /* Section 2 */
   .col-2 {
     flex-direction: column;
     padding-left: 2rem;
@@ -461,7 +452,6 @@ footer {
     list-style-type: none;
   }
 
-  /* Section 3 */
   .col-4 {
     padding: 0 2rem;
   }
@@ -478,7 +468,6 @@ footer {
     font-size: 0.9rem;
   }
 
-  /* Section 4 */
   .section-4 .iletisim {
     padding-left: 2rem;
     padding-top: 8rem;
@@ -498,7 +487,6 @@ footer {
     margin-top: 2.5rem;
   }
 
-  /* Footer */
   footer {
     font-size: 0.75rem;
     flex-direction: column;
@@ -508,13 +496,11 @@ footer {
   }
 }
 
-/* Telefon — 480px */
 @media (max-width: 480px) {
   html {
     font-size: 11px;
   }
 
-  /* Nav */
   .nav-bar {
     padding: 1rem 1.2rem;
   }
@@ -525,7 +511,6 @@ footer {
     font-size: 0.75rem;
   }
 
-  /* Header / Section 1 */
   header {
     padding-top: 10rem;
   }
@@ -550,7 +535,6 @@ footer {
     text-align: center;
   }
 
-  /* Section 2 */
   .col-2 {
     flex-direction: column;
     padding-left: 1.5rem;
@@ -570,7 +554,6 @@ footer {
     list-style-type: none;
   }
 
-  /* Section 3 */
   .section-3 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -602,7 +585,6 @@ footer {
     font-size: 0.85rem;
   }
 
-  /* Section 4 */
   .section-4 {
     margin-left: 0;
     margin-right: 0;
@@ -630,7 +612,6 @@ footer {
     padding: 0.7rem 1rem;
   }
 
-  /* Footer */
   footer {
     font-size: 0.8rem;
     flex-direction: column;
