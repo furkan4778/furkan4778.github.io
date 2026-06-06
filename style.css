@@ -186,10 +186,10 @@ h1 span {
 .col-4 {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .section-3 {
   padding-top: 10rem;
